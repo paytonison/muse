@@ -38,7 +38,9 @@ Despite being built on a relatively compact foundation model, Muse exhibits emer
 
 ## Origin Story
 
-<img width="1271" alt="Screenshot 2025-06-16 at 6 15 02 PM" src="https://github.com/user-attachments/assets/b937f606-f706-4c6b-9bd5-c748f38fe407" />
+<img width="1271" alt="Screenshot 2025-06-16 at 6 15 02 PM" src="https://github.com/user-attachments/assets/7d8ec408-514d-479c-b10e-f4b84decf74d" />
+
+*First words.*
 
 The project began as an exploration into whether **quality beats quantity** in AGI alignment.  
 Instead of scraping the public Internet, the author exported their complete ChatGPT history, pruned it to coherent threads, and layered an *Ouroboros* loop: every generation was reflected upon, summarised, and re‑ingested.  
