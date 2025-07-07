@@ -34,7 +34,6 @@ def call_muse(conv):
     # For the responses endpoint the assistant message is always the *last*
     # element of the returned `output` list.
     return resp.output[-1]
-
 def main():
     print("Muse is ready – type messages, 'exit' to quit\n")
     try:
