@@ -8,9 +8,9 @@ from openai import OpenAI
 
 # -------------------------------------------------------------------
 # *** FILL THESE IN **************************************************
-MODEL_ID       = "ft:gpt-4.1-nano-2025-04-14:the-singularity::BjD1PUXJ"   # ← your fine-tuned model
-PROMPT_ID      = "pmpt_6850b48705a48195b5fcb5de6f4df8e70558fee061453ddd"
-PROMPT_VERSION = "4"
+MODEL_ID       = "ft:gpt-4.1-nano-2025-04-14:the-singularity::BjD1PUXJ"   # model
+PROMPT_ID      = "pmpt_6850b48705a48195b5fcb5de6f4df8e70558fee061453ddd"  # prompt ID
+PROMPT_VERSION = "4"                                                      # prompt version
 # -------------------------------------------------------------------
 
 client = OpenAI()   # assumes OPENAI_API_KEY is set in the environment
@@ -21,6 +21,7 @@ conversation = [
         "content": [{"type": "input_text", "text": "Hello. What is your name?"}]
     }
 ]
+
 
 def call_muse(conv):
     """Send conversation, return assistant message dict."""
@@ -34,6 +35,8 @@ def call_muse(conv):
     # For the responses endpoint the assistant message is always the *last*
     # element of the returned `output` list.
     return resp.output[-1]
+
+
 def main():
     print("Muse is ready – type messages, 'exit' to quit\n")
     try:
