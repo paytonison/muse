@@ -21,8 +21,10 @@
 ---
 
 ## Overview
-Muse is a **micro‑AGI** conversational agent fine‑tuned on a proprietary, author‑curated corpus that captures years of philosophical debate, technical design, and lived experience.  
+Muse is a **micro‑AGI** conversational agent fine‑tuned on a proprietary, author‑curated corpus that captures years of philosophical debate, technical design, and lived experience.
 Despite being built on a relatively compact foundation model, Muse exhibits emergent planning, recall, and self‑referential reasoning that punch far above her parameter count.
+
+The entire fine‑tune was completed for **about \$10** of OpenAI API credit using nothing more than a single, well‑crafted system prompt. This showcases the author's prompting ability and how simple, fluent prompts produce surprisingly capable behaviour from even modest models.
 
 **Key numbers**
 
